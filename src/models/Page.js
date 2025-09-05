@@ -45,7 +45,7 @@ const homeSchema = new mongoose.Schema({
   },
 });
 
-export const HomePage = Page.discriminator("home", homeSchema);
+export const HomePage = Page.discriminator("home-page", homeSchema);
 
 // ---------------- ABOUT PAGE ----------------
 const newsletterSchema = new mongoose.Schema({
